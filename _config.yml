@@ -1,19 +1,25 @@
-# Site settings
-name: 小火柴
-location: 西安
-company: key
-position: Java开发工程师
-github: https://github.com/
-facebook: https://www.facebook.com/
-phone: 10000
-email: 203377572qq.com
+encoding: utf-8
 
-baseurl: "/resume.io"
+# SEO相关信息
+title: TMaize Blog
+description: TMaize Blog
+keywords: TMaize,Blog,Java,Android,Html,Css,Js,算法
+author: TMaize
 
-permalink: /:year/:month/:day/:title/
+# 项目环境
+# 静态资源找不到，链接点进去不对时请检查下这里的配置
+# demo.com访问设置为""，demo.com/blog/访问设置为"/blog"
+context: ""
 
-exclude: ['README.md']
+# 用来生成sitemap
+siteMapPrefix: "http://blog.tmaize.net"
 
-# Build settings
-markdown: kramdown
+## 文章url前缀，固定格式，不要动
+permalink: /posts/:year/:month/:day/:title.html
 
+# 页面底部信息
+copyright: 2016
+record: "皖ICP备16016174号"
+
+coderay:
+  coderay_tab_width: 4

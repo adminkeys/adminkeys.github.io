@@ -1,32 +1,28 @@
 <!DOCTYPE html>
-<html lang="en" class="ace ace-card-on ace-tab-nav-on ace-main-nav-on ace-sidebar-on" data-theme-color="#c0e3e7">
-  {% include head.html %}
-  <body>
-    <div class="ace-wrapper">
-      
-      <header id="ace-header" class="ace-container-shift ace-logo-in ace-head-boxed ace-nav-right">
-         <div class="ace-head-inner">
-         </div>
-      </header>
-
-      {% include personal.html %}
-
-      {{ content }}
-      
-      {% include footer.html %}
-    
-    </div><!-- .ace-wrapper -->
-
-    <!-- Scripts -->
-    <script type="text/javascript" src="{{ '/styles/js/vendor/jquery-1.12.4.min.js' | prepend: site.baseurl }}"></script>
-    <script type="text/javascript" src="{{ '/styles/js/plugins/highlight/highlight.pack.js' | prepend: site.baseurl }}"></script>
-    <script type="text/javascript" src="{{ '/styles/js/plugins/jquery.mCustomScrollbar.min.js' | prepend: site.baseurl }}"></script>
-    <script type="text/javascript" src="{{ '/styles/js/plugins/isotope.pkgd.min.js' | prepend: site.baseurl }}"></script>
-    <script type="text/javascript" src="{{ '/styles/js/plugins/progressbar.min.js' | prepend: site.baseurl }}"></script>
-    <script type="text/javascript" src="{{ '/styles/js/plugins/slick.min.js' | prepend: site.baseurl }}"></script>
-
-    <script type="text/javascript" src="{{ '/styles/js/options.js' | prepend: site.baseurl }}"></script>
-    <script type="text/javascript" src="{{ '/styles/js/main.js' | prepend: site.baseurl }}"></script>
-
-  </body>
-</html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv="content-language" content="zh-CN" />
+		<meta name="google-site-verification" content="ckhUaoa05QCmWoE1FafzTBcqYI4yBOy-UJKopXDS18M" />
+		<meta name="360-site-verification" content="2e30b4ad3bda2b54fe57f9c99a4205a2" />
+		<meta name="msvalidate.01" content="833A897D8FA12360B4CB76C5C3DA6638" />
+		<meta name="baidu-site-verification" content="CvuahQIPWP" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<meta name="description" content="{{ site.description }}"/>
+		<meta name="keywords" content="{{ site.keywords }}"/>
+		<meta name="author" content="{{ site.author }}" />
+		{% for css in page.css %}
+			<link rel="stylesheet" href="{{site.context}}/static/css/{{ css }}">
+		{% endfor %}
+		<script>window.blog={contextPath:""}</script>
+		{% for js in page.js %}
+			<script type="text/javascript" src="{{site.context}}/static/js/{{ js }}"></script>
+		{% endfor %}
+		<link rel="icon" href="{{site.context}}/static/img/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="{{site.context}}/static/img/favicon.ico" type="image/x-icon"/>
+		<title>{% if page.title %}{{ page.title }}-{{ site.title }} {% else %}{{ site.title }}{% endif %}</title>
+	</head>
+<body>
+{% include header.html %}
+    {{ content }}
+{% include footer.html %}
