@@ -1,0 +1,19 @@
+# Site settings
+name: 小火柴
+location: 西安
+company: key
+position: Java开发工程师
+github: https://github.com/
+facebook: https://www.facebook.com/
+phone: 10000
+email: 203377572qq.com
+
+baseurl: "/resume.io"
+
+permalink: /:year/:month/:day/:title/
+
+exclude: ['README.md']
+
+# Build settings
+markdown: kramdown
+
