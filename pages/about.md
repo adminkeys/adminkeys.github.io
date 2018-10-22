@@ -3,7 +3,7 @@ layout: mypost
 title: 关于我
 ---
 
-> Hello 陌生人！欢迎访问TMaize Blog......
+> Hello 陌生人！欢迎访问adminkeys Blog......
 
 初衷
 
@@ -13,15 +13,15 @@ title: 关于我
 
 遂写了一套jekyll主题(就是现在这个，在一点点完善)，用于记录自己的学习笔记（没有一点技术含量的文章），便于自己查阅
 
-现在已经修改为使用[site-generator](https://github.com/TMaize/site-generator)生成,迁移到BAE
+现在已经修改为使用[site-generator](https://github.com/adminkeys/site-generator)生成,迁移到BAE
 
 ## 作品展示
 
-+ [tmaize-blog](https://github.com/TMaize/tmaize-blog)
++ [adminkeys-blog](https://github.com/adminkeys/adminkeys-blog)
 
     你现在看到的这个博客,简单的jekyll主题，前端没啥框架，力求轻快
 
-+ [site-generator](https://github.com/TMaize/site-generator)
++ [site-generator](https://github.com/adminkeys/site-generator)
 
     Java开发的的静态站点生成器，自己用比较顺手，类似jekyll和hexo
 
@@ -53,10 +53,10 @@ title: 关于我
 
 ## 联系我
 
-+ QQ : 1772314831
++ QQ : 2033775728
 
-+ 微信 : TMaize
++ 微信 : dminkeys
 
-+ Email : [tmaize@qq.com](http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=YBQNAQkaBSAREU4DDw0)
++ Email : [2033775728@qq.com](https://mail.qq.com/cgi-bin/frame_html?sid=rNxhGu6gU2umdw5V&r=71ef021c2b91a186b4cf2258a4af9f53)
 
-+ GitHub : [https://github.com/tmaize](https://github.com/tmaize)
++ GitHub : [https://adminkeys.github.io/](https://github.com/adminkeys)
