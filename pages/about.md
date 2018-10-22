@@ -13,15 +13,15 @@ title: 关于我
 
 遂写了一套jekyll主题(就是现在这个，在一点点完善)，用于记录自己的学习笔记（没有一点技术含量的文章），便于自己查阅
 
-现在已经修改为使用[site-generator](https://github.com/adminkeys/site-generator)生成,迁移到BAE
+现在已经修改为使用[site-generator](https://github.com/tmaize/site-generator)生成,迁移到BAE
 
 ## 作品展示
 
-+ [adminkeys-blog](https://github.com/adminkeys/adminkeys-blog)
++ [tmaize-blog](https://github.com/tmaize/tmaize-blog)
 
     你现在看到的这个博客,简单的jekyll主题，前端没啥框架，力求轻快
 
-+ [site-generator](https://github.com/adminkeys/site-generator)
++ [site-generator](https://github.com/tmaize/site-generator)
 
     Java开发的的静态站点生成器，自己用比较顺手，类似jekyll和hexo
 
@@ -55,6 +55,6 @@ title: 关于我
 
 + QQ : 2033775728
 
-+ 微信 : dminkeys
++ 微信 : adminkeys
 
 + Email : [2033775728@qq.com](https://mail.qq.com/cgi-bin/frame_html?sid=rNxhGu6gU2umdw5V&r=71ef021c2b91a186b4cf2258a4af9f53)
