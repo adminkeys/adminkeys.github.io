@@ -58,5 +58,3 @@ title: 关于我
 + 微信 : dminkeys
 
 + Email : [2033775728@qq.com](https://mail.qq.com/cgi-bin/frame_html?sid=rNxhGu6gU2umdw5V&r=71ef021c2b91a186b4cf2258a4af9f53)
-
-+ GitHub : [https://adminkeys.github.io/](https://github.com/adminkeys)
